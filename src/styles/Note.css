@@ -1,0 +1,40 @@
+div.note {
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #DFEBEB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.note > div.action-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.note > div.action-buttons > button {
+    background-color: transparent;
+    border: none;
+}
+
+div.note > h2 {
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+div.note > p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+div.note-dark {
+    background-color: #b19cd9;
+}
