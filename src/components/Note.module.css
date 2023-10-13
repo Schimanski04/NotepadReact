@@ -8,14 +8,14 @@ div.note {
     margin-right: auto;
 }
 
-div.note > div.action-buttons {
+div.note > div.actionButtons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-div.note > div.action-buttons > button {
+div.note > div.actionButtons > button {
     background-color: transparent;
     border: none;
 }
@@ -35,6 +35,6 @@ div.note > p {
     overflow: hidden;
 }
 
-div.note-dark {
+div.dark {
     background-color: #b19cd9;
 }
